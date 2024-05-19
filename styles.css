@@ -1,0 +1,32 @@
+.title {
+    background-color: #02525d;
+    color: white;
+    padding: 0.5rem
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15% 0 15%;
+
+    .image {
+        width: 400px;
+        color: #444 !important;
+        margin: 0 0 0 auto;
+        /* background-color: #000; */
+    }
+
+    .underline {
+        color: #444;
+        background-color: #444;
+        height: 10px;
+        width: 100%;
+    }
+
+    .text {
+        margin: 10px ;
+        font-size: 1.15rem;
+    }
+}
